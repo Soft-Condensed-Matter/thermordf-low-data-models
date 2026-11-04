@@ -1,0 +1,268 @@
+{
+  "created_utc": "2026-11-04T22:37:22.398661+00:00",
+  "files": {
+    ".gitignore": {
+      "path": ".gitignore",
+      "sha256": "c67306f864c11f38f64291bcf979170a0cd785a04e7ae908e918fb76f25724aa",
+      "size_bytes": 97
+    },
+    "CITATION.cff": {
+      "path": "CITATION.cff",
+      "sha256": "237c607ca9e80a4fa3a2bbd97f74fd64f89b9fa10eaa578d5d1e72137af9af92",
+      "size_bytes": 478
+    },
+    "COPYING": {
+      "path": "COPYING",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "size_bytes": 35149
+    },
+    "COPYING.LESSER": {
+      "path": "COPYING.LESSER",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "size_bytes": 7652
+    },
+    "LICENSE": {
+      "path": "LICENSE",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "size_bytes": 7652
+    },
+    "LICENSES/CC-BY-4.0.txt": {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "size_bytes": 18657
+    },
+    "LICENSE_SCOPE.md": {
+      "path": "LICENSE_SCOPE.md",
+      "sha256": "16259c164a25d7707ee4aa80f3861882e105e6bd261b466c56fefd076ee19b87",
+      "size_bytes": 1086
+    },
+    "README.md": {
+      "path": "README.md",
+      "sha256": "811494af1ad9d71e6c6cc9c964a7e4c19d4b2cafa7d09b5a718309c8a9078a97",
+      "size_bytes": 3253
+    },
+    "code/thermordf_common.py": {
+      "path": "code/thermordf_common.py",
+      "sha256": "29d894c658c5b4015ebbd35c566850c33a336e6add6ad369defbf00275fad173",
+      "size_bytes": 25079
+    },
+    "code/thermordf_eos.py": {
+      "path": "code/thermordf_eos.py",
+      "sha256": "ac6fc2f8b74bcad0fb580a28df29e5b45779336ba6ab0c3850449be2dcce0c34",
+      "size_bytes": 3780
+    },
+    "code/thermordf_evaluate.py": {
+      "path": "code/thermordf_evaluate.py",
+      "sha256": "e36d87022217c7b2634ebe065f1b2c0fb38d6c0062cd8c21ba1ab0ea8a87c118",
+      "size_bytes": 10914
+    },
+    "code/thermordf_idw.py": {
+      "path": "code/thermordf_idw.py",
+      "sha256": "a40457f1beafb436050cad38718d994f39c4a11db8d59226f5997b4827f2fcbc",
+      "size_bytes": 3127
+    },
+    "code/thermordf_inference.py": {
+      "path": "code/thermordf_inference.py",
+      "sha256": "dd1cd7f9e610fe75bfdb0dfbdda73460727f3e0d3fc36b4f6b7278f5800a09d6",
+      "size_bytes": 2877
+    },
+    "code/thermordf_mlp.py": {
+      "path": "code/thermordf_mlp.py",
+      "sha256": "0c28f6e19097f5160e0080302ee0d9a5695ec9e08db77639554b9d8f639e3035",
+      "size_bytes": 13885
+    },
+    "code/thermordf_ridge.py": {
+      "path": "code/thermordf_ridge.py",
+      "sha256": "5c490362203f0e600f3a344f496bb0f7dbab70165cfb07612beaaad8c24f59a1",
+      "size_bytes": 3187
+    },
+    "code/thermordf_sampling.py": {
+      "path": "code/thermordf_sampling.py",
+      "sha256": "7da020d87467b7a96b6bf33d252a5c811ab60128a997d91e7eb05301b57cc518",
+      "size_bytes": 17068
+    },
+    "code/thermordf_selfcheck.py": {
+      "path": "code/thermordf_selfcheck.py",
+      "sha256": "e5d5da5808d574a66d0f7720205269767be0f280aba1d9105095e279a060ac67",
+      "size_bytes": 1590
+    },
+    "models/eos/eos_d073f2c16c2ae18b2177.json": {
+      "path": "models/eos/eos_d073f2c16c2ae18b2177.json",
+      "sha256": "fe5d975da763c34c5200547d0ce58d2d06592e872576da77be1e9eb28500041d",
+      "size_bytes": 1582
+    },
+    "models/eos/eos_d073f2c16c2ae18b2177.npz": {
+      "path": "models/eos/eos_d073f2c16c2ae18b2177.npz",
+      "sha256": "ea279685f8dfec445a15c6ac4d9d59fa463548158f1a12d57026f2e63e7e05fd",
+      "size_bytes": 2479
+    },
+    "models/idw/idw_d073f2c16c2ae18b2177.json": {
+      "path": "models/idw/idw_d073f2c16c2ae18b2177.json",
+      "sha256": "19cd790e6baaa8f18f2f106ce9f8a74511bf1855c2224d0266b048c64df487c4",
+      "size_bytes": 1595
+    },
+    "models/idw/idw_d073f2c16c2ae18b2177.npz": {
+      "path": "models/idw/idw_d073f2c16c2ae18b2177.npz",
+      "sha256": "066d58a9a4868f878b6c24cdf9dc9e5b0d7d38f928f383120cc5ee00a8532b3d",
+      "size_bytes": 298627
+    },
+    "models/mlp/mlp_d073f2c16c2ae18b2177.json": {
+      "path": "models/mlp/mlp_d073f2c16c2ae18b2177.json",
+      "sha256": "874cd42b918edc0a03043c0fb74feb1ed2d8631c5f40fb3ea2ef034a5011fe2e",
+      "size_bytes": 2535
+    },
+    "models/mlp/mlp_d073f2c16c2ae18b2177.pt": {
+      "path": "models/mlp/mlp_d073f2c16c2ae18b2177.pt",
+      "sha256": "79a5c42294612f3860a235539c2a52555a16228785bf197cb286f6dee8ad5f5e",
+      "size_bytes": 383213
+    },
+    "models/ridge/ridge_d073f2c16c2ae18b2177.json": {
+      "path": "models/ridge/ridge_d073f2c16c2ae18b2177.json",
+      "sha256": "9aac6dbdac903e00ae9e481449315fb143cc0816018dfbc9cc1312eea8d38051",
+      "size_bytes": 1654
+    },
+    "models/ridge/ridge_d073f2c16c2ae18b2177.npz": {
+      "path": "models/ridge/ridge_d073f2c16c2ae18b2177.npz",
+      "sha256": "8dab1bd909b8c860c171ba1b5062469228af99eb362c7d49032c6b5e464b1980",
+      "size_bytes": 61704
+    },
+    "provenance/campaign_configuration.json": {
+      "path": "provenance/campaign_configuration.json",
+      "sha256": "99f888844cd03d08f5023f18c1638ae2da32735904fdce3e3bcf035175941c60",
+      "size_bytes": 1704
+    },
+    "provenance/sampling_run_summary.json": {
+      "path": "provenance/sampling_run_summary.json",
+      "sha256": "f5e5222131f95433bbecd469567f51a3210ee37c4bdae58f2ea10f3f592b478b",
+      "size_bytes": 624
+    },
+    "provenance/status/eos/completion.json": {
+      "path": "provenance/status/eos/completion.json",
+      "sha256": "95fc8a2fbc470c30659cd8e1b694f567a59cfa8e5ec9cbf153d6b85b61aa2aab",
+      "size_bytes": 218
+    },
+    "provenance/status/idw/completion.json": {
+      "path": "provenance/status/idw/completion.json",
+      "sha256": "5dae3e4b2d6eb29f9ebe6faf499c6c74f63a39b05b8bb30d0bf4e26e2ef87f8f",
+      "size_bytes": 218
+    },
+    "provenance/status/mlp/completion.json": {
+      "path": "provenance/status/mlp/completion.json",
+      "sha256": "616db8cd79ad9dfc5fe6745a3e4d9c8cc79a1f3837f217dcc95cf03c64894a7f",
+      "size_bytes": 215
+    },
+    "provenance/status/ridge/completion.json": {
+      "path": "provenance/status/ridge/completion.json",
+      "sha256": "f6784dd1711520093da2da90c3492e66eafd22d8039e764c73d253b936219bbd",
+      "size_bytes": 219
+    },
+    "requirements.txt": {
+      "path": "requirements.txt",
+      "sha256": "7788a74621ca412aecadb113a1357ffd07a3fea5d84d6d280ce0921454156f65",
+      "size_bytes": 45
+    },
+    "results/density_metrics.csv": {
+      "path": "results/density_metrics.csv",
+      "sha256": "1f6070072d9e47ad95be0dbf0360bcac31e72b25410f8481331988e2ce695462",
+      "size_bytes": 372
+    },
+    "results/mlp_diagnostics.csv": {
+      "path": "results/mlp_diagnostics.csv",
+      "sha256": "88167b5361211b4d47f4575962adb5576990747a716d940e4257747b91789243",
+      "size_bytes": 425
+    },
+    "results/physical_feature_metrics.csv": {
+      "path": "results/physical_feature_metrics.csv",
+      "sha256": "040235933a01dc770a0b8f5dee9b6f0295d006ab8dbd277900a2f574c19e70ad",
+      "size_bytes": 8815
+    },
+    "results/rdf_metrics.csv": {
+      "path": "results/rdf_metrics.csv",
+      "sha256": "131fb809a87d4b71411d87cacb1bb219695d7eb1cf267905367b8a33997add87",
+      "size_bytes": 7347
+    },
+    "sampling/model_jobs.csv": {
+      "path": "sampling/model_jobs.csv",
+      "sha256": "76bff10fe5d45eb4d71ff48a984ee1a0599c94ba020ed79ba28d93ae31095a47",
+      "size_bytes": 726
+    },
+    "sampling/selected_states.csv": {
+      "path": "sampling/selected_states.csv",
+      "sha256": "ec48b3e9f0212ee4cf5ba6006b9c0de25c965930b4b7613a4b14b7febc21a1dc",
+      "size_bytes": 780
+    },
+    "thermordf_predict_final.py": {
+      "path": "thermordf_predict_final.py",
+      "sha256": "47b7abe9c2e92047d7492ba8d327d3dc6bb9186b0be02b880f4c85ebd017395c",
+      "size_bytes": 4590
+    },
+    "thermordf_verify_release.py": {
+      "path": "thermordf_verify_release.py",
+      "sha256": "bdc9d7e9379ed4768a6d6b6d92484f90111e22bc33158f60cedd530558d20ad5",
+      "size_bytes": 1943
+    }
+  },
+  "implementation_id": "thermordf-low-data-modular-campaign-2026-10-07",
+  "licensing": {
+    "code": "LGPL-3.0-or-later",
+    "models_results_metadata_documentation": "CC-BY-4.0",
+    "scope_file": "LICENSE_SCOPE.md"
+  },
+  "models": {
+    "EOS": {
+      "artifact": "models/eos/eos_d073f2c16c2ae18b2177.npz",
+      "completion": "provenance/status/eos/completion.json",
+      "metadata": "models/eos/eos_d073f2c16c2ae18b2177.json",
+      "sha256": "ea279685f8dfec445a15c6ac4d9d59fa463548158f1a12d57026f2e63e7e05fd",
+      "size_bytes": 2479
+    },
+    "IDW": {
+      "artifact": "models/idw/idw_d073f2c16c2ae18b2177.npz",
+      "completion": "provenance/status/idw/completion.json",
+      "metadata": "models/idw/idw_d073f2c16c2ae18b2177.json",
+      "sha256": "066d58a9a4868f878b6c24cdf9dc9e5b0d7d38f928f383120cc5ee00a8532b3d",
+      "size_bytes": 298627
+    },
+    "MLP": {
+      "artifact": "models/mlp/mlp_d073f2c16c2ae18b2177.pt",
+      "best_epoch": 13716,
+      "completion": "provenance/status/mlp/completion.json",
+      "epochs_run": 14716,
+      "metadata": "models/mlp/mlp_d073f2c16c2ae18b2177.json",
+      "sha256": "79a5c42294612f3860a235539c2a52555a16228785bf197cb286f6dee8ad5f5e",
+      "size_bytes": 383213,
+      "termination_reason": "PLATEAU"
+    },
+    "Ridge": {
+      "artifact": "models/ridge/ridge_d073f2c16c2ae18b2177.npz",
+      "completion": "provenance/status/ridge/completion.json",
+      "metadata": "models/ridge/ridge_d073f2c16c2ae18b2177.json",
+      "sha256": "8dab1bd909b8c860c171ba1b5062469228af99eb362c7d49032c6b5e464b1980",
+      "size_bytes": 61704
+    }
+  },
+  "schema_version": 1,
+  "scope": {
+    "control_models_included": false,
+    "final_model_artifacts": 4,
+    "higher_budget_models_included": false,
+    "intermediate_checkpoints_included": false,
+    "source_project_modified": false,
+    "try02_used": false
+  },
+  "selection": {
+    "budget": 36,
+    "geometry": "range",
+    "repetition": 0,
+    "selected_state_count": 36,
+    "strategy": "designed_maximin",
+    "subset_id": "d073f2c16c2ae18b2177"
+  },
+  "source_netcdf": {
+    "filename": "thermordf_master.nc",
+    "sha256": "02f3a6dd9d8051a337fe67de9002843f4096afd087894ee3ee212b78d7752d8a",
+    "size_bytes": 70019814,
+    "zenodo_doi": "https://doi.org/10.5281/zenodo.23960981"
+  },
+  "status": "COMPLETE"
+}

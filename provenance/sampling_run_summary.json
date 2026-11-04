@@ -1,0 +1,35 @@
+{
+  "budgets": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32,
+    36,
+    40,
+    44,
+    48,
+    52
+  ],
+  "candidate_count": 372,
+  "control_families": [
+    "random_unrestricted",
+    "random_corners",
+    "stratified_recursive"
+  ],
+  "duration_seconds": 18.01314108099905,
+  "geometric_repetitions": 250,
+  "geometries": [
+    "range",
+    "grid_resolution"
+  ],
+  "grid_pressure_weight": 0.4998333333333333,
+  "implementation_id": "thermordf-low-data-modular-campaign-2026-10-07",
+  "logical_model_jobs": 806,
+  "predictive_repetitions": 10,
+  "status": "COMPLETE",
+  "unique_training_subsets": 535
+}

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article and dataset."
+title: "ThermoRDF final density and radial-distribution reconstruction models"
+type: software
+authors:
+  - family-names: "Torres-Carbajal"
+    given-names: "Alexis"
+version: 1.0.0
+date-released: "2026-11-04"
+license: "LGPL-3.0-or-later"
+keywords:
+  - water
+  - radial distribution functions
+  - thermodynamic state selection
+  - low-data reconstruction
+  - machine learning

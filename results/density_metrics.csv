@@ -1,0 +1,2 @@
+geometry,strategy,repetition,budget,subset_id,mean_squared_relative_error,mean_absolute_relative_error,p95_absolute_relative_error,maximum_absolute_relative_error,bias_kg_m3,sigma_normalized_rmse
+range,designed_maximin,0,36,d073f2c16c2ae18b2177,6.1144563258413235e-06,0.0012735952446670214,0.005288581511031285,0.01948826056599309,0.3555164212059988,0.05047074992957116

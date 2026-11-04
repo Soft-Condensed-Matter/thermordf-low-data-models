@@ -1,0 +1,2 @@
+geometry,strategy,repetition,budget,subset_id,best_data_loss,best_epoch,best_l2_contribution,best_total_loss,epochs_run,gradient_norm_output,gradient_norm_total,output_weight_frobenius,parameter_count,termination_reason
+range,designed_maximin,0,36,d073f2c16c2ae18b2177,7.192107204900822e-06,13716,4.548872311715968e-05,5.268082895781845e-05,14716,3.24685851312665e-06,3.2540478003378063e-06,4.226627826690674,49468,PLATEAU

@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+logs/
+prediction_*.csv
+prediction_*.json
+thermordf_master.nc

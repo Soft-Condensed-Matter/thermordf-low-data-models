@@ -1,0 +1,68 @@
+{
+  "artifact": {
+    "path": "models/eos/eos_d073f2c16c2ae18b2177.npz",
+    "sha256": "ea279685f8dfec445a15c6ac4d9d59fa463548158f1a12d57026f2e63e7e05fd",
+    "size_bytes": 2479
+  },
+  "budget": 36,
+  "format_version": 1,
+  "implementation_id": "thermordf-low-data-modular-campaign-2026-10-07",
+  "logical_aliases": [
+    {
+      "budget": 36,
+      "geometry": "range",
+      "repetition": 0,
+      "strategy": "designed_maximin"
+    }
+  ],
+  "method": "EOS",
+  "model": "cubic_temperature_natural_cubic_pressure_relative_ridge",
+  "release_scope": {
+    "budget": 36,
+    "geometry": "range",
+    "repetition": 0,
+    "strategy": "designed_maximin"
+  },
+  "ridge_lambda": 9.394108055076972e-07,
+  "selected_state_ids": [
+    "T200_Bar0001",
+    "T200_Bar3000",
+    "T350_Bar0001",
+    "T350_Bar3000",
+    "T275_Bar1500",
+    "T275_Bar3000",
+    "T200_Bar1500",
+    "T275_Bar0001",
+    "T350_Bar1500",
+    "T235_Bar0700",
+    "T310_Bar0700",
+    "T235_Bar2000",
+    "T310_Bar2000",
+    "T235_Bar3000",
+    "T240_Bar0001",
+    "T270_Bar0700",
+    "T310_Bar3000",
+    "T315_Bar0001",
+    "T345_Bar0700",
+    "T200_Bar0700",
+    "T255_Bar2500",
+    "T330_Bar2500",
+    "T215_Bar2500",
+    "T290_Bar2500",
+    "T245_Bar1500",
+    "T265_Bar2000",
+    "T320_Bar1500",
+    "T340_Bar2000",
+    "T205_Bar2000",
+    "T290_Bar1000",
+    "T220_Bar0300",
+    "T295_Bar0300",
+    "T215_Bar1000",
+    "T250_Bar1000",
+    "T325_Bar1000",
+    "T255_Bar0300"
+  ],
+  "status": "COMPLETE",
+  "subset_id": "d073f2c16c2ae18b2177",
+  "target_scaling": "training_mean_and_population_standard_deviation"
+}

@@ -1,0 +1,84 @@
+{
+  "budgets": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32,
+    36,
+    40,
+    44,
+    48,
+    52
+  ],
+  "format_version": 1,
+  "geometric_repetitions": 250,
+  "geometries": [
+    "range",
+    "grid_resolution"
+  ],
+  "grid_pressure_weight": 0.4998333333333333,
+  "implementation_id": "thermordf-low-data-modular-campaign-2026-10-07",
+  "master_seed": 20261003,
+  "models": {
+    "EOS": {
+      "pressure_basis_size": 4,
+      "relative_ridge_factor": 1e-06,
+      "target_scaling": "training_mean_and_population_standard_deviation",
+      "temperature_degree": 3
+    },
+    "IDW": {
+      "power": 2.0
+    },
+    "MLP": {
+      "activation": "tanh",
+      "architecture": [
+        2,
+        8,
+        16,
+        2900
+      ],
+      "dtype": "float32",
+      "l2_alpha": 1e-06,
+      "learning_rate": 0.001,
+      "maximum_epochs": 30000,
+      "patience": 1000,
+      "relative_minimum_improvement": 0.0001,
+      "seed": 20261003
+    },
+    "Ridge": {
+      "relative_factor": 1e-06
+    }
+  },
+  "predictive_repetitions": 10,
+  "previous_results_reused": false,
+  "release_scope": {
+    "budget": 36,
+    "geometry": "range",
+    "repetition": 0,
+    "strategy": "designed_maximin"
+  },
+  "resolved_variables": {
+    "channel": "channel",
+    "density": "rho_mean_kg_m3",
+    "pressure": "P_bar",
+    "radial": "r_nm",
+    "rdf": "g_mean",
+    "state_id": "state_id",
+    "temperature": "T_K"
+  },
+  "source_netcdf": {
+    "path": "thermordf_master.nc",
+    "sha256": "02f3a6dd9d8051a337fe67de9002843f4096afd087894ee3ee212b78d7752d8a",
+    "size_bytes": 70019814
+  },
+  "units": {
+    "density": "kg m-3",
+    "pressure": "bar",
+    "radial": "nm",
+    "temperature": "K"
+  }
+}

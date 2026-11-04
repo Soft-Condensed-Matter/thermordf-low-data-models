@@ -1,0 +1,111 @@
+{
+  "activation": "tanh",
+  "architecture": [
+    2,
+    8,
+    16,
+    2900
+  ],
+  "artifact": {
+    "path": "models/mlp/mlp_d073f2c16c2ae18b2177.pt",
+    "sha256": "79a5c42294612f3860a235539c2a52555a16228785bf197cb286f6dee8ad5f5e",
+    "size_bytes": 383213
+  },
+  "budget": 36,
+  "channel_order": [
+    "OO",
+    "OH_inter",
+    "HH_inter",
+    "COM_COM"
+  ],
+  "device": "cuda",
+  "diagnostic_arrays": [
+    "activation_evaluation",
+    "activation_train",
+    "evaluation_channel_mse",
+    "gradient_hidden",
+    "hidden_weight_frobenius",
+    "history_data",
+    "history_l2",
+    "history_total",
+    "train_channel_mse"
+  ],
+  "dtype": "float32",
+  "format_version": 1,
+  "implementation_id": "thermordf-low-data-modular-campaign-2026-10-07",
+  "input_coordinates": "global_minmax_temperature_pressure",
+  "joint_output_dimension": 2900,
+  "l2_alpha": 1e-06,
+  "learning_rate": 0.001,
+  "logical_aliases": [
+    {
+      "budget": 36,
+      "geometry": "range",
+      "repetition": 0,
+      "strategy": "designed_maximin"
+    }
+  ],
+  "maximum_epochs": 30000,
+  "method": "MLP",
+  "patience": 1000,
+  "relative_minimum_improvement": 0.0001,
+  "release_scope": {
+    "budget": 36,
+    "geometry": "range",
+    "repetition": 0,
+    "strategy": "designed_maximin"
+  },
+  "seed": 20261003,
+  "selected_state_ids": [
+    "T200_Bar0001",
+    "T200_Bar3000",
+    "T350_Bar0001",
+    "T350_Bar3000",
+    "T275_Bar1500",
+    "T275_Bar3000",
+    "T200_Bar1500",
+    "T275_Bar0001",
+    "T350_Bar1500",
+    "T235_Bar0700",
+    "T310_Bar0700",
+    "T235_Bar2000",
+    "T310_Bar2000",
+    "T235_Bar3000",
+    "T240_Bar0001",
+    "T270_Bar0700",
+    "T310_Bar3000",
+    "T315_Bar0001",
+    "T345_Bar0700",
+    "T200_Bar0700",
+    "T255_Bar2500",
+    "T330_Bar2500",
+    "T215_Bar2500",
+    "T290_Bar2500",
+    "T245_Bar1500",
+    "T265_Bar2000",
+    "T320_Bar1500",
+    "T340_Bar2000",
+    "T205_Bar2000",
+    "T290_Bar1000",
+    "T220_Bar0300",
+    "T295_Bar0300",
+    "T215_Bar1000",
+    "T250_Bar1000",
+    "T325_Bar1000",
+    "T255_Bar0300"
+  ],
+  "status": "COMPLETE",
+  "subset_id": "d073f2c16c2ae18b2177",
+  "summary": {
+    "best_data_loss": 7.192107204900822e-06,
+    "best_epoch": 13716,
+    "best_l2_contribution": 4.548872311715968e-05,
+    "best_total_loss": 5.268082895781845e-05,
+    "epochs_run": 14716,
+    "gradient_norm_output": 3.24685851312665e-06,
+    "gradient_norm_total": 3.2540478003378063e-06,
+    "output_weight_frobenius": 4.226627826690674,
+    "parameter_count": 49468,
+    "termination_reason": "PLATEAU"
+  }
+}
