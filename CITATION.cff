@@ -14,3 +14,14 @@ keywords:
   - thermodynamic state selection
   - low-data reconstruction
   - machine learning
+
+
+doi: "10.5281/zenodo.23965843"
+
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23965844"
+    description: "DOI for ThermoRDF v1.0.0."
+
+repository-code: "https://github.com/Soft-Condensed-Matter/thermordf-low-data-models"
+url: "https://doi.org/10.5281/zenodo.23965843"

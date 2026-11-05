@@ -8,8 +8,8 @@
     },
     "CITATION.cff": {
       "path": "CITATION.cff",
-      "sha256": "237c607ca9e80a4fa3a2bbd97f74fd64f89b9fa10eaa578d5d1e72137af9af92",
-      "size_bytes": 478
+      "sha256": "4e88e1575d1841e2bdbb907f501188772824b34413646f807f46820171d4c345",
+      "size_bytes": 755
     },
     "COPYING": {
       "path": "COPYING",
@@ -38,8 +38,8 @@
     },
     "README.md": {
       "path": "README.md",
-      "sha256": "811494af1ad9d71e6c6cc9c964a7e4c19d4b2cafa7d09b5a718309c8a9078a97",
-      "size_bytes": 3253
+      "sha256": "a061dc4ba368e0b03d2f8e70d9623bd573ffa91f3e526e75dddcc70aa85629c7",
+      "size_bytes": 3476
     },
     "code/thermordf_common.py": {
       "path": "code/thermordf_common.py",
@@ -240,6 +240,15 @@
       "sha256": "8dab1bd909b8c860c171ba1b5062469228af99eb362c7d49032c6b5e464b1980",
       "size_bytes": 61704
     }
+  },
+  "persistent_identifiers": {
+    "reference_dataset_doi": "10.5281/zenodo.23960981",
+    "software_concept_doi": "10.5281/zenodo.23965843",
+    "software_version_doi": "10.5281/zenodo.23965844"
+  },
+  "repository": {
+    "url": "https://github.com/Soft-Condensed-Matter/thermordf-low-data-models",
+    "version": "1.0.0"
   },
   "schema_version": 1,
   "scope": {

@@ -79,19 +79,21 @@ reference density and RDF columns are added for comparison.
 The released models support interpolation only within 200--350 K and
 1--3000 bar.
 
+<!-- THERMORDF-PUBLICATION-METADATA:START -->
 ## Citation
 
-If you use ThermoRDF, please cite the software as specified in
-[`CITATION.cff`](CITATION.cff) and the reference dataset:
+For the exact software and trained models used in the associated study, cite:
 
-> Torres-Carbajal, A. (2026). *ThermoRDF: Density and site-resolved radial
-> distribution functions of TIP4P/2005 water across temperature and pressure*.
-> Zenodo. https://doi.org/10.5281/zenodo.23960981
+> Torres-Carbajal, A. (2026). *ThermoRDF final density and radial-distribution reconstruction models* (v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23965844
+
+Machine-readable citation metadata is provided in `CITATION.cff`. The reference
+dataset is archived separately at https://doi.org/10.5281/zenodo.23960981.
 
 ## License
 
-- **Source code:** [GNU LGPL v3 or later](LICENSE)
-- **Models, results, provenance and documentation:** [CC BY 4.0](LICENSES/CC-BY-4.0.txt)
+- Executable source code: `LGPL-3.0-or-later`.
+- Trained models, result tables, provenance records and documentation: `CC-BY-4.0`.
 
-The precise file-level licensing scope is defined in
-[`LICENSE_SCOPE.md`](LICENSE_SCOPE.md).
+See `LICENSE_SCOPE.md` for the exact file-level scope.
+<!-- THERMORDF-PUBLICATION-METADATA:END -->
+
